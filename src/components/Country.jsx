@@ -46,7 +46,9 @@ function Country() {
                   <p>
                     <span>Native Name: </span>
                     <span className="stats">
-                      {currCountry[0].name.official}
+                      {currCountry[0].name.official
+                        ? currCountry[0].name.official
+                        : currCountry[0].name.common}
                     </span>
                   </p>
                   <p>
@@ -63,7 +65,9 @@ function Country() {
                   </p>
                   <p>
                     <span>Capital: </span>
-                    <span className="stats"> {currCountry[0].capital[0]} </span>
+                    <span className="stats">
+                      {currCountry[0].capital && currCountry[0].capital}
+                    </span>
                   </p>
                 </div>
 
