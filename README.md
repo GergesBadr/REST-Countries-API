@@ -20,4 +20,6 @@ Here is the challenge from [Frontend Mentor](https://www.frontendmentor.io/chall
 - Added a loader indicator while fetching data. also an error indicator if something wrong happens in the process 
 
 ## Demo
-[Here]() you can try and enjoy the app live.
+[Here](https://countries-data-api.netlify.app/) you can try and enjoy the app live.
+
+![desktop-preview](https://github.com/GergesBadr/REST-Countries-API/assets/110337209/80d65bfd-c0d2-493a-909d-fc35b504d327)
